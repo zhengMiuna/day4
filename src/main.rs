@@ -1,7 +1,7 @@
 use std::{
     cell::RefCell,
     collections::VecDeque,
-    future::{self,Future},
+    future::Future,
     sync::{Arc,Condvar,Mutex},
     task::{Context,Poll,Wake,Waker,RawWaker,RawWakerVTable},
 };
